@@ -1,0 +1,254 @@
+<view class='page'>
+
+  <view class='head'>
+    <image class='head-logo' src='/images/logo_blue_big.png'></image>
+    <text class='head-title'>产品介绍</text>
+    <view class='head-menu-btn'>
+      <text class='head-menu-btn-dot'></text>
+      <text class='head-menu-btn-line'></text>
+      <text class='head-menu-btn-line'></text>
+      <text class='head-menu-btn-line'></text>
+    </view>
+  </view>
+
+  <view class='content-01'>
+    <view class='content-01-fixd'>
+      <image class='content-01-fixd-01' src='/images/conference-element01.png'></image>
+      <text class='content-01-fixd-02'></text>
+      <text class='content-01-fixd-03'></text>
+      <text class='content-01-fixd-04'></text>
+      <image class='content-01-fixd-05' src='/images/conference-element02.png'></image>
+    </view>
+    <image class='content-01-bg' src='/images/conference-bg.jpg'></image>
+    <view class='content-01-content'>
+      <image class='content-01-content-01' src='/images/conference01.png'></image>
+      <view class='content-01-content-02'>
+        <view>国内<text class='bold'>首家会议融媒体中心</text></view>
+        <view>拥有全国一线的媒体资源和<text class='bold'>宣发渠道</text></view>
+        <view><text class='bold'>媒体＋工具</text>双重属性，打造会议新场景</view>
+        <view>现已覆盖全国<text class='bold'>100＋</text></view>
+      </view>
+      <view class='content-01-content-03'>
+        <image class='content-01-content-03-01' src='/images/conference02.png'></image>
+        <image class='content-01-content-03-02' src='/images/conference03.png'></image>
+        <image class='content-01-content-03-03' src='/images/conference04.png'></image>
+      </view>
+      <image class='content-01-content-04' src='/images/arrow-down.png'></image>
+    </view>
+  </view>
+
+  <view class='content-02'>
+    <view class='content-02-title'>
+      <image class='content-02-title-no' src='/images/num01.png'></image>
+      <view class='content-02-title-text'>什么是</view>
+      <view class='content-02-title-text'>会议融媒体<text class='content-02-title-text-bg'></text></view>
+    </view>
+    <view class='content-02-content-01'>
+      <view class='content-02-content-01-text'>会议融媒体，是会议传播的一种新概念</view>
+      <view class='content-02-content-01-text'>区别于过去单一或者少量媒体的传播</view>
+      <view class='content-02-content-01-text'>在实现会议内容<text class='bold'>(包含图文直播、照片直播、视频直播)</text></view>
+      <view class='content-02-content-01-text'>(完整留存的前提下，通过)<text class='bold'>媒体采编处理</text></view>
+      <view class='content-02-content-01-text'>实现多种媒体形态在不同媒介上的传播</view>
+    </view>
+    <view class='content-02-content-02'>
+      <image class='content-02-content-02-01' src='/images/media01.png'></image>
+      <view class='content-02-content-02-02'>
+        <view class='content-02-content-02-02-top'>
+          <view class='content-02-content-02-02-top-left'>
+            <image class='content-02-content-02-02-top-left-img' src='/images/media02.png'></image>
+            <text>搜索引擎</text>
+          </view>
+          <view class='content-02-content-02-02-top-left'>
+            <image class='content-02-content-02-02-top-left-img' src='/images/media03.png'></image>
+            <text>新闻稿件</text>
+          </view>
+        </view>
+        <view class='content-02-content-02-02-bottom'>融媒体中心带动的新闻稿件能显著提升搜索引擎的收录情况</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='content-03'>
+    <view class='content-02-title'>
+      <image class='content-02-title-no' src='/images/num02.png'></image>
+      <view class='content-02-title-text'>会议行业顶尖的</view>
+      <view class='content-02-title-text'>内容媒体平台<text class='content-02-title-text-bg'></text></view>
+    </view>
+    <view class='content-03-item'>
+      <view class='content-03-sub-title'>
+        <text class='content-03-sub-title-dot'></text>
+        <text>直达<text class='blue'>400万+</text>全网媒体受众</text>
+      </view>
+      <view class='content-03-item-content'>云现场为主办方提供全方位的会议媒体发布解决方案
+        目前与全国<text class='blue'>120</text>多家媒体进行合作，全网有<text class='blue'>230</text>多名记者和编辑在云现场上获取新闻素材，云现场的融媒体平台属性能够迅速提升会议在线上的热度和传播价值</view>
+    </view>
+    <view class='content-03-item'>
+      <view class='content-03-sub-title'>
+        <text class='content-03-sub-title-dot'></text>
+        <text>深度合作媒体</text>
+      </view>
+      <view class='content-03-img-box'>
+        <image class='content-03-img' src='/images/cooperation01.png'></image>
+        <image class='content-03-img' src='/images/cooperation02.png'></image>
+        <image class='content-03-img' src='/images/cooperation03.png'></image>
+        <image class='content-03-img' src='/images/cooperation04.png'></image>
+        <image class='content-03-img' src='/images/cooperation05.png'></image>
+        <image class='content-03-img' src='/images/cooperation06.png'></image>
+        <image class='content-03-img' src='/images/cooperation07.png'></image>
+        <image class='content-03-img' src='/images/cooperation08.png'></image>
+        <image class='content-03-img' src='/images/cooperation09.png'></image>
+        <image class='content-03-img' src='/images/cooperation10.png'></image>
+      </view>
+    </view>
+    <view class='content-03-item'>
+      <view class='content-03-sub-title'>
+        <text class='content-03-sub-title-dot'></text>
+        <text>部分合作媒体 </text>
+      </view>
+      <swiper class='content-03-swiper' indicator-dots indicator-color='#dddddd' indicator-active-color='#669fff'>
+        <swiper-item>
+          <view class='content-03-img-box swiper-img-box'>
+            <image class='content-03-img' src='/images/medias01.jpg'></image>
+            <image class='content-03-img' src='/images/medias02.jpg'></image>
+            <image class='content-03-img' src='/images/medias03.jpg'></image>
+            <image class='content-03-img' src='/images/medias04.jpg'></image>
+            <image class='content-03-img' src='/images/medias05.jpg'></image>
+            <image class='content-03-img' src='/images/medias06.jpg'></image>
+            <image class='content-03-img' src='/images/medias07.jpg'></image>
+            <image class='content-03-img' src='/images/medias08.jpg'></image>
+            <image class='content-03-img' src='/images/medias09.jpg'></image>
+            <image class='content-03-img' src='/images/medias10.jpg'></image>
+            <image class='content-03-img' src='/images/medias11.jpg'></image>
+            <image class='content-03-img' src='/images/medias12.jpg'></image>
+            <image class='content-03-img' src='/images/medias13.jpg'></image>
+            <image class='content-03-img' src='/images/medias14.jpg'></image>
+            <image class='content-03-img' src='/images/medias15.jpg'></image>
+            <image class='content-03-img' src='/images/medias16.jpg'></image>
+            <image class='content-03-img' src='/images/medias17.jpg'></image>
+            <image class='content-03-img' src='/images/medias18.jpg'></image>
+            <image class='content-03-img' src='/images/medias19.jpg'></image>
+            <image class='content-03-img' src='/images/medias20.jpg'></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-03-img-box swiper-img-box'>
+            <image class='content-03-img' src='/images/medias21.jpg'></image>
+            <image class='content-03-img' src='/images/medias22.jpg'></image>
+            <image class='content-03-img' src='/images/medias23.jpg'></image>
+            <image class='content-03-img' src='/images/medias24.jpg'></image>
+            <image class='content-03-img' src='/images/medias25.jpg'></image>
+            <image class='content-03-img' src='/images/medias26.jpg'></image>
+            <image class='content-03-img' src='/images/medias27.jpg'></image>
+            <image class='content-03-img' src='/images/medias28.jpg'></image>
+            <image class='content-03-img' src='/images/medias29.jpg'></image>
+            <image class='content-03-img' src='/images/medias30.jpg'></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+
+  <view class='content-04'>
+    <view class='content-04-title'>
+      <image class='content-04-title-no' src='/images/num03.png'></image>
+      <view class='content-04-title-text'>聚合核心内容 </view>
+      <view class='content-04-title-text'>直达会议痛点<text class='content-04-title-text-bg'></text></view>
+    </view>
+    <view class='content-04-content'>
+      <view class='content-04-content-item'>
+        <view class='content-04-content-img'>
+          <image class='img-01' src='/images/spot02.png'></image>
+        </view>
+        <view class='content-04-content-text'>
+          <view class='content-04-content-text-title'>专业图文直播</view>
+          <view class='content-04-content-text-item'>专业的后台编辑团队</view>
+          <view class='content-04-content-text-item'>对会议内容进行轻度加工+审核把控</view>
+          <view class='content-04-content-text-item'>实现会中<text class='blue'>实时</text>直播会议结束后<text>永久</text>留存</view>
+        </view>
+      </view>
+      <view class='content-04-content-item'>
+        <view class='content-04-content-img'>
+          <image class='img-02' src='/images/spot04.png'></image>
+        </view>
+        <view class='content-04-content-text'>
+          <view class='content-04-content-text-title'>精修图照片直播</view>
+          <view class='content-04-content-text-item'>微信公众号集成，<text class='blue'>5分钟</text>精修图片直达</view>
+          <view class='content-04-content-text-item'>H5页面<text class='blue'>多平台</text>同步，多种互动营销功能</view>
+          <view class='content-04-content-text-item'>让照片传播更有价值</view>
+        </view>
+      </view>
+      <view class='content-04-content-item'>
+        <view class='content-04-content-img'>
+          <image class='content-04-content-img img-03' src='/images/spot06.png'></image>
+        </view>
+        <view class='content-04-content-text'>
+          <view class='content-04-content-text-title'>可分销视频直播</view>
+          <view class='content-04-content-text-item'>采用自主研发直播软件围绕<text class='blue'>内容变现</text></view>
+          <view class='content-04-content-text-item'>红包、打赏、付费观看等多种玩法激活粉丝</view>
+          <view class='content-04-content-text-item'>提高流量<text class='blue'>转化率</text></view>
+        </view>
+      </view>
+      <view class='content-04-content-item'>
+        <view class='content-04-content-img'>
+          <image class='content-04-content-img img-04' src='/images/spot08.png'></image>
+        </view>
+        <view class='content-04-content-text'>
+          <view class='content-04-content-text-title'>多种自定义功能</view>
+          <view class='content-04-content-text-item'>支持生成嘉宾快讯(朋友圈海报)</view>
+          <view class='content-04-content-text-item'>关联微信号、植入外链、</view>
+          <view class='content-04-content-text-item'>点赞、转发等<text class='blue'>多种功能</text>，观看数据<text class='blue'>实时呈现</text></view>
+          <view class='content-04-content-text-item'>让活动营销和传播效果最大化</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='content-05'>
+    <view class='content-05-title'>
+      <view class='content-05-title-text'>不是每个 </view>
+      <view class='content-05-title-text'>图文直播<text class='content-05-title-text-bg'></text></view>
+      <view class='content-05-title-text'>都能叫云现场</view>
+    </view>
+    <view class='content-05-content'>
+      <view class='content-05-content-01'>
+        <view class='content-05-content-01-item'>
+          <image class='content-05-content-01-item-img img-01' src='/images/tuwen02.png'></image>
+          <view class='content-05-content-01-item-title blue'>云现场·图文直播</view>
+          <view class='content-05-content-01-item-text'>专业编辑配合现场摄影师、速记员</view>
+          <view class='content-05-content-01-item-text'>后台编辑校对、标出重点，呈现最好效果</view>
+        </view>
+        <view class='content-05-content-01-item'>
+          <image class='content-05-content-01-item-img img-02' src='/images/tuwen01.png'></image>
+          <view class='content-05-content-01-item-title'>普通直播</view>
+          <view class='content-05-content-01-item-text'>手机拍图、随手打字</view>
+          <view class='content-05-content-01-item-text'>具备传播基础，缺乏留存价值</view>
+        </view>
+      </view>
+      <view class='content-05-content-02'>
+        <view class='content-05-content-02-item'>
+          <view class='content-05-content-02-item-title'>
+            <text class='content-05-content-02-item-title-dot'></text>
+            <text>专注会议内容的传播与留存</text>
+          </view>
+          <view class='content-05-content-02-item-content'>区别于市面上的传统图文直播，云现场每一场服务都包含着专业的后台编辑团队对会议内容进行轻度加工+审核把控，实现会中实时直播，会议结束后永久留存</view>
+        </view>
+        <view class='content-05-content-02-item'>
+          <view class='content-05-content-02-item-title'>
+            <text class='content-05-content-02-item-title-dot'></text>
+            <text>记者获取素材的最佳途径</text>
+          </view>
+          <view class='content-05-content-02-item-content'>普通图文直播只能满足极少部分的传播需求，只有专业的云现场服务，能够具备内容媒体的属性</view>
+        </view>
+        <view class='content-05-content-02-item'>
+          <view class='content-05-content-02-item-title'>
+            <text class='content-05-content-02-item-title-dot'></text>
+            <text>会后留存、下届招商的最佳载体</text>
+          </view>
+          <view class='content-05-content-02-item-content'>云现场不仅能满足会中的传播需求，还是会后留存、复盘、整体汇报、下届招商 的最佳载体</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

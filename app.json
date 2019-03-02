@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/info/info",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#519bff",
+    "navigationBarTitleText": "云现场Live",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  }
+}
