@@ -5,16 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    swiper9Index: 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.getCase()
   },
-
+  // 获取案例
+  getCase(){
+    let url = 'https://www.yun-live.com/api/cases'
+    wx.request({
+      url: url,
+      success: res=>{
+        console.log(res.data)
+        this.setData({
+          cases: res.data.data.list
+        })
+      }
+    })
+  },
+  swiper9(e){
+    this.setData({
+      swiper9Index: e.detail.current
+    })
+  },
+  bindSwiper9(e){
+    this.setData({
+      swiper9Index: e.currentTarget.dataset.index
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

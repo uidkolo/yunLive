@@ -1,14 +1,24 @@
 <view class='page'>
+  
+  <view class='btns'>
+    <view class='btn-nav'>
+      <text class='btn-nav-dot'></text>
+      <text class='btn-nav-line'></text>
+      <text class='btn-nav-line'></text>
+      <text class='btn-nav-line'></text>
+    </view>
+    <view class='btn-item btn-contact'>
+      <image class='btn-item-img' src='/images/btn-order.png'></image>
+    </view>
+    <view class='btn-item'>
+      <image class='btn-item-img' src='/images/btn-top.png'></image>
+    </view>
+  </view>
 
   <view class='head'>
     <image class='head-logo' src='/images/logo_blue_big.png'></image>
     <text class='head-title'>产品介绍</text>
-    <view class='head-menu-btn'>
-      <text class='head-menu-btn-dot'></text>
-      <text class='head-menu-btn-line'></text>
-      <text class='head-menu-btn-line'></text>
-      <text class='head-menu-btn-line'></text>
-    </view>
+    <view class='head-menu-btn'></view>
   </view>
 
   <view class='content-01'>
@@ -250,5 +260,496 @@
     </view>
   </view>
 
+  <view class='content-05'>
+    <view class='content-05-title'>
+      <view class='content-05-title-text'>视频直播<text class='content-05-title-text-bg'></text></view>
+      <view class='content-05-title-text'>只是载体</view>
+    </view>
+    <view class='content-05-title'>
+      <view class='content-05-title-text'>有效传播才有价值</view>
+    </view>
+    <view class='content-06-content'>
+      <view class='content-06-content-item'>
+        <image class='content-06-content-img' src='/images/carrier01.jpg'></image>
+        <view class='content-06-content-text'>
+          <view>云现场的视频直播</view>
+          <view>可以推流至各大媒体</view>
+          <view>并实现付费观看的功能</view>
+        </view>
+      </view>
+      <view class='content-06-content-item'>
+        <view class='content-06-content-text'>
+          <view>云现场的视频直播</view>
+          <view>可以推流至各大媒体</view>
+          <view>并实现付费观看的功能</view>
+        </view>
+        <image class='content-06-content-img' src='/images/carrier02.jpg'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='content-07'>
+    <view class='content-02-title content-07-title'>
+      <image class='content-02-title-no content-07-title-no' src='/images/num04.png'></image>
+      <view class='content-02-title-text'>精彩案例 </view>
+      <view class='content-02-title-text'>展示<text class='content-04-title-text-bg'></text></view>
+    </view>
+    <swiper class='content-7-swiper' indicator-dots indicator-color='#ebebeb' indicator-active-color='#669fff' circular previous-margin='110rpx' next-margin='110rpx'>
+      <swiper-item class='content-7-swiper-item' wx:for='{{cases}}' wx:key='{{index}}'>
+        <view class='content-7-item'>
+          <image class='content-7-item-img' src='{{item.banner}}'></image>
+          <view class='content-7-title'>{{item.title}}</view>
+          <scroll-view scroll-y class='content-7-scroll'>
+            <view class='content-7-content-item'>
+              <text class='content-7-label'>会议亮点</text>
+              <view class='content-7-content'>{{item.info}}</view>
+            </view>
+            <view class='content-7-content-item'>
+              <text class='content-7-label'>主办方</text>
+              <view class='content-7-content'>{{item.sponsor}}</view>
+            </view>
+            <view class='content-7-content-item'>
+              <text class='content-7-label'>项目时间</text>
+              <view class='content-7-content'>{{item.time}}</view>
+            </view>
+            <view class='content-7-content-item'>
+              <text class='content-7-label'>合作方式</text>
+              <view class='content-7-content'>{{item.way}}</view>
+            </view>
+            <image class='content-7-qrcode' src='{{item.qrcode}}'></image>
+          </scroll-view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class='content-03'>
+    <view class='content-02-title'>
+      <image class='content-02-title-no' src='/images/num05.png'></image>
+      <view class='content-02-title-text'>长期合作</view>
+      <view class='content-02-title-text'>伙伴<text class='content-02-title-text-bg'></text></view>
+    </view>
+    <view class='content-08-content'>
+      <image class='content-08-img' src='/images/partner01.jpg'></image>
+      <image class='content-08-img' src='/images/partner02.jpg'></image>
+      <image class='content-08-img' src='/images/partner03.jpg'></image>
+      <image class='content-08-img' src='/images/partner04.jpg'></image>
+      <image class='content-08-img' src='/images/partner06.jpg'></image>
+      <image class='content-08-img' src='/images/partner07.jpg'></image>
+      <image class='content-08-img' src='/images/partner08.jpg'></image>
+      <image class='content-08-img' src='/images/partner09.jpg'></image>
+      <image class='content-08-img' src='/images/partner10.jpg'></image>
+      <image class='content-08-img' src='/images/partner13.jpg'></image>
+      <image class='content-08-img' src='/images/partner15.jpg'></image>
+      <image class='content-08-img' src='/images/partner16.jpg'></image>
+      <image class='content-08-img' src='/images/partner11.jpg'></image>
+      <image class='content-08-img' src='/images/partner12.jpg'></image>
+      <image class='content-08-img' src='/images/partner14.jpg'></image>
+    </view>
+  </view>
+
+  <view class='content-03'>
+    <view class='content-02-title'>
+      <image class='content-02-title-no' src='/images/num06.png'></image>
+      <view class='content-02-title-text'>云现场套餐</view>
+      <view class='content-02-title-text'>介绍<text class='content-02-title-text-bg'></text></view>
+    </view>
+  </view>
+  <view class='content-09-content'>
+    <view class='content-09-tab'>
+      <view class='content-09-tab-item {{swiper9Index==0?"active":""}}' bindtap='bindSwiper9' data-index='0'>
+        <image class='content-09-tab-item-bg' src='/images/introduce01.png' wx:if='{{swiper9Index==0}}'></image>
+        <image class='content-09-tab-item-img' src='/images/hot.png' wx:if='{{swiper9Index!=0}}'></image>
+        <text class='content-09-tab-item-text'>专业</text>
+      </view>
+      <view class='content-09-tab-item {{swiper9Index==1?"active":""}}' bindtap='bindSwiper9' data-index='1'>
+        <image class='content-09-tab-item-bg' src='/images/introduce02.png' wx:if='{{swiper9Index==1}}'></image>
+        <text class='content-09-tab-item-text'>基础</text>
+      </view>
+      <view class='content-09-tab-item {{swiper9Index==2?"active":""}}' bindtap='bindSwiper9' data-index='2'>
+        <image class='content-09-tab-item-bg' src='/images/introduce03.png' wx:if='{{swiper9Index==2}}'></image>
+        <text class='content-09-tab-item-text'>进阶</text>
+      </view>
+      <view class='content-09-tab-item {{swiper9Index==3?"active":""}}' bindtap='bindSwiper9' data-index='3'>
+        <image class='content-09-tab-item-bg' src='/images/introduce04.png' wx:if='{{swiper9Index==3}}'></image>
+        <text class='content-09-tab-item-text'>豪华</text>
+      </view>
+      <view class='content-09-tab-item'>
+        <image class='content-09-tab-item-icon' src='/images/btn-order.png'></image>
+      </view>
+    </view>
+    <view class='content-09-box'>
+      <swiper class='content-9-swiper' bindchange='swiper9' current='{{swiper9Index}}'>
+        <swiper-item>
+          <view class='content-09-box-item'>
+            <view class='content-09-box-top'>
+              <text class='content-09-box-top-text'>专业版(10+家媒体宣发)</text>
+              <image class='content-09-box-top-icon' src='/images/package05.png'></image>
+              <image class='content-09-box-top-bg' src='/images/package03.jpg'></image>
+            </view>
+            <view class='content-09-box-bottom'>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场视频直播（微信平台）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>配备摄像师一名、后台操作一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场图文直播（含速记）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>配备专业速记一名、后台编辑一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场照片直播（实时共享、实时传播）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>配备后台修图师一名、品控师一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text bold'>嘉宾快讯（朋友圈分享利器）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>专属直播二维码生成</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>可接入外链（第三方页面、介绍官网等）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>数据永久留存（媒体获取素材）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>自定义化logo水印</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>创客猫官网活动推荐</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou2.png'></image>
+                <text class='content-09-box-bottom-text'>公众号引流</text>
+              </view>
+              <view class='content-09-box-bottom-item-content'>视频直播推流至各大媒体平台（10w+观看量）</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-09-box-item'>
+            <view class='content-09-box-top'>
+              <text class='content-09-box-top-text'>基础版</text>
+              <image class='content-09-box-top-bg' src='/images/package01.jpg'></image>
+            </view>
+            <view class='content-09-box-bottom'>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场图文直播（含速记）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>配备专业速记一名、后台编辑一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>嘉宾快讯（朋友圈分享利器）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>专属直播二维码生成</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>可接入外链（第三方页面、介绍官网等）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>数据永久留存（媒体获取素材）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>自定义化logo水印</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>创客猫官网活动推荐</text>
+              </view>
+              <view class='content-09-box-bottom-item-content'>云现场照片直播（实时共享、实时传播）</view>
+              <view class='content-09-box-bottom-item-content'>后台修图师一名、品控师一名</view>
+              <view class='content-09-box-bottom-item-content'>公众号引流</view>
+              <view class='content-09-box-bottom-item-content'>云现场视频直播（微信平台）</view>
+              <view class='content-09-box-bottom-item-content'>摄像师一名、后台操作一名</view>
+              <view class='content-09-box-bottom-item-content'>视频直播推流至各大媒体平台（10w+观看量）</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-09-box-item'>
+            <view class='content-09-box-top'>
+              <text class='content-09-box-top-text'>进阶版A (5+家媒体宣发)</text>
+              <text class='content-09-box-top-text'>进阶版B (5+家媒体宣发)</text>
+              <image class='content-09-box-top-bg' src='/images/package02.jpg'></image>
+            </view>
+            <view class='content-09-box-bottom'>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>【A】云现场照片直播</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'><text class='bold'>【A】</text>配备后台修图师一名、品控师一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>【B】云现场视频直播</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'><text class='bold'>【B】</text>配备摄影师一名，后台操作一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场图文直播（含速记）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>配备专业速记一名、后台编辑一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>嘉宾快讯（朋友圈分享利器）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>专属直播二维码生成</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>可接入外链（第三方页面、介绍官网等）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>数据永久留存（媒体获取素材）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>自定义化logo水印</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>创客猫官网活动推荐</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>公众号引流</text>
+              </view>
+              <view class='content-09-box-bottom-item-content'>视频直播推流至各大媒体平台（10w+观看量）</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-09-box-item'>
+            <view class='content-09-box-top'>
+              <text class='content-09-box-top-text'>豪华版(20+家媒体宣发)</text>
+              <image class='content-09-box-top-bg' src='/images/package04.jpg'></image>
+            </view>
+            <view class='content-09-box-bottom'>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>视频直播推流至各大媒体平台（10w+观看量）*</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场视频直播（微信平台）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>配备摄像师一名、后台操作一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场图文直播（含速记）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>配备专业速记一名、后台编辑一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>云现场照片直播（实时共享、实时传播）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>配备后台修图师一名、品控师一名</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text bold'>嘉宾快讯（朋友圈分享利器）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>专属直播二维码生成</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>可接入外链（第三方页面、介绍官网等）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>数据永久留存（媒体获取素材）</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>自定义化logo水印</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>创客猫官网活动推荐</text>
+              </view>
+              <view class='content-09-box-bottom-item'>
+                <image class='content-09-box-bottom-icon' src='/images/gou.png'></image>
+                <text class='content-09-box-bottom-text'>公众号引流</text>
+              </view>
+              <view class='content-09-box-bottom-item-content'>* 凤凰新闻、中新网、中新经纬等平台，详询客服</view>
+            </view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+
+  <view class='content-05 content-10'>
+    <view class='content-05-title'>
+      <view class='content-05-title-text'>媒体 </view>
+      <view class='content-05-title-text'>传播包<text class='content-05-title-text-bg'></text></view>
+    </view>
+    <view class='content-10-content'>
+      <swiper class='swiper-10' previous-margin='70rpx' next-margin='70rpx'>
+        <swiper-item>
+          <view class='content-10-item'>
+            <view class='content-10-item-top'>
+              <text class='content-10-item-top-text'>初级媒体传播包</text>
+              <image class='content-10-item-top-img' src='/images/transmission01.jpg'></image>
+            </view>
+            <view class='content-10-item-bottom'>
+              <view class='content-10-item-bottom-item'>含<text class='yellow'><text class='bold'>1</text>篇</text>专业新闻稿</view>
+              <view class='content-10-item-bottom-item'>宣发方案拟写，并整体把控大会全程媒体进展</view>
+              <view class='content-10-item-bottom-item'>全网媒体宣发<text class='yellow'><text class='bold'>20</text>家</text>（平均数量）</view>
+              <view class='content-10-item-bottom-item'>其中<text class='yellow'><text class='bold'>5</text>家</text>地方媒体</view>
+              <view class='content-10-item-bottom-item'><text class='yellow'><text class='bold'>10</text>家</text>门户媒体</view>
+              <view class='content-10-item-bottom-item'><text class='yellow'><text class='bold'>5</text>家</text>垂直领域媒体</view>
+              <view class='content-10-item-bottom-item'>潜在受众10w+</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-10-item'>
+            <view class='content-10-item-top'>
+              <text class='content-10-item-top-text'>中级媒体传播包</text>
+              <image class='content-10-item-top-img' src='/images/transmission02.jpg'></image>
+            </view>
+            <view class='content-10-item-bottom'>
+              <view class='content-10-item-bottom-item'>含<text class='blue'><text class='bold'>2</text>篇</text>专业新闻稿</view>
+              <view class='content-10-item-bottom-item'>宣发方案拟写，并整体把控大会全程媒体进展</view>
+              <view class='content-10-item-bottom-item'>全网媒体宣发<text class='blue'><text class='bold'>30</text>家</text>（平均数量）</view>
+              <view class='content-10-item-bottom-item'>其中<text class='blue'><text class='bold'>5</text>家</text>地方媒体</view>
+              <view class='content-10-item-bottom-item'><text class='blue'><text class='bold'>15</text>家</text>门户媒体</view>
+              <view class='content-10-item-bottom-item'><text class='blue'><text class='bold'>10</text>家</text>垂直领域媒体</view>
+              <view class='content-10-item-bottom-item'>潜在受众20w+</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='content-10-item'>
+            <view class='content-10-item-top'>
+              <text class='content-10-item-top-text'>顶级媒体传播包</text>
+              <image class='content-10-item-top-img' src='/images/transmission03.jpg'></image>
+            </view>
+            <view class='content-10-item-bottom'>
+              <view class='content-10-item-bottom-item'>含<text class='greed'><text class='bold'>3</text>篇</text>专业新闻稿</view>
+              <view class='content-10-item-bottom-item'>宣发方案拟写，并整体把控大会全程媒体进展</view>
+              <view class='content-10-item-bottom-item'>全网媒体宣发<text class='greed'><text class='bold'>50</text>家</text>（平均数量）</view>
+              <view class='content-10-item-bottom-item'>其中<text class='greed'><text class='bold'>10</text>家</text>地方媒体</view>
+              <view class='content-10-item-bottom-item'><text class='greed'><text class='bold'>20</text>家</text>门户媒体</view>
+              <view class='content-10-item-bottom-item'><text class='greed'><text class='bold'>20</text>家</text>垂直领域媒体</view>
+              <view class='content-10-item-bottom-item'>潜在受众20w+</view>
+            </view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class='content-10-btn'>立即联系</view>
+  </view>
+
+  <view class='bottom'>
+    <view class='contact'>
+      <view class='contact-title'>联系我们</view>
+      <view class='contact-content'>
+        <view class='contact-item'>
+          <image class='contact-qrcode' src='/images/qrcode_zheng.png'></image>
+          <view class='contact-info'>
+            <view class='contact-name'>【北京】郑先生</view>
+            <view class='contact-tel'>TEL：<text class='contact-tel-num'>18370737892</text>（微信同号）</view>
+            <view class='contact-email'>Email：zyans@chuangkem.com</view>
+          </view>
+        </view>
+        <view class='contact-item'>
+          <image class='contact-qrcode' src='/images/qrcode_qiu.png'></image>
+          <view class='contact-info'>
+            <view class='contact-name'>【上海】邱先生</view>
+            <view class='contact-tel'>TEL：<text class='contact-tel-num'>13063068458</text>（微信同号）</view>
+            <view class='contact-email'>Email：qiuth@chuangkem.com</view>
+          </view>
+        </view>
+        <view class='contact-item'>
+          <image class='contact-qrcode' src='/images/qrcode_xue.png'></image>
+          <view class='contact-info'>
+            <view class='contact-name'>【杭州】薛女士</view>
+            <view class='contact-tel'>TEL：<text class='contact-tel-num'>18350242110</text>（微信同号）</view>
+            <view class='contact-email'>Email：xue@chuangkem.com</view>
+          </view>
+        </view>
+        <view class='contact-item'>
+          <image class='contact-qrcode' src='/images/qrcode_chen.png'></image>
+          <view class='contact-info'>
+            <view class='contact-name'>【厦门】陈先生</view>
+            <view class='contact-tel'>TEL：<text class='contact-tel-num'>18850335336</text>（微信同号）</view>
+            <view class='contact-email'>Email：chenduo@chuangkem.com</view>
+          </view>
+        </view>
+        <view class='contact-item'>
+          <image class='contact-qrcode' src='/images/qrcode_yan.png'></image>
+          <view class='contact-info'>
+            <view class='contact-name'>【其他城市】晏女士</view>
+            <view class='contact-tel'>TEL：<text class='contact-tel-num'>18959228275</text>（微信同号）</view>
+            <view class='contact-email'>Email：yanqian@chuangkem.com</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='site-info'>
+      <view class='site-mobile'>400-119-3599</view>
+      <view class='site-add'>www.yun-live.com</view>
+    </view>
+
+    <view class='copy-right'>
+      <view class='copy-right-dec'>云现场是厦门创客猫网络科技有限公司旗下的会议产品之一</view>
+      <view class='copy-right-name'>
+        <text>北京运营部</text> | <text>深圳运营部</text> | <text>厦门运营部</text>
+      </view>
+      <view class='copy-right-add'>厦门创客猫网络科技有限公司 闽ICP备15014240号-2</view>
+    </view>
+
+  </view>
 
 </view>
